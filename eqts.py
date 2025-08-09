@@ -153,6 +153,9 @@ HTML_TEMPLATE = """
 <body>
     
     <div id="pipe" style="width:400px;margin-top:30px;margin-left:auto;margin-right:auto;">
+        <div>This software uses symbolic regression to find a mathematical equation for a given time series.</div>
+        <div><a href="https://github.com/erhard3mem/eqts">source code</a></div>
+            
         <div>Example: "1 2 3 -1" - be aware not to end with a whitespace</div><br />
   
         <form style="display:block" id="aios" action="/" method="POST">
